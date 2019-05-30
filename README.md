@@ -20,7 +20,7 @@ Dataset: VOC 2007
 |[Small-DSOD](https://arxiv.org/abs/1807.11013) |DS/64-64-16-1| 300x300 | 27.8 | 5.9 M  | 5.29B   | 73.6  | [ICCV 2017](https://github.com/szq0214/DSOD) |
 |[PELEE](https://arxiv.org/pdf/1804.06882.pdf) |  Dense Blocks | 300x300 | - | 5.98 M  | 1.21B   | 70.9  | [NeurIPS 2018]() |
 |[Tiny-YOLOv2](https://github.com/simo23/tinyYOLOv2) | - | 416x416 | 207 | 15.12 M  | 6.97B   | 57.1  | [CVPR 2016](https://pjreddie.com/darknet/yolo/)|
-|[Tiny-SSD](https://arxiv.org/pdf/1802.06488.pdf) | - | 416x416 | - | 2.3 M  | -B   | 61.3 | []()|
+|[Tiny-SSD](https://arxiv.org/pdf/1802.06488.pdf) | - | 300x300 | - | 2.3 M  | -B   | 61.3 | CRV-2018|
 
 
 
