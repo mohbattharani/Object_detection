@@ -4,10 +4,12 @@ Dataset: VOC 2007
 
 |Method      | Backbone | Input size | FPS | #Params | FLOPs   | mAP(%)|  Venue    |
 |:---        | :---   | :---       |:--- | :---    |:---     |:---   |  :---     |
-|Faster-RCNN |  VGG  | 600x1000  | 7   | 134.7 M | 188.12B | 73.2  |           | 
-|[YOLO]() |-| 448×448 | 45 | 188.25M  | 40.19B   | 63.4 | []() |
-|[SSD]() |VGGNet| 300x300 | 46| 26.3 M  | 31.75B   | 77.7 | []() |
 |[DSOD](https://github.com/szq0214/DSOD) |DS/64-192-48-1| 300x300 | 17.4 | 14.8 M  | 15.07B   | 77.7 | [ICCV 2017](http://openaccess.thecvf.com/content_ICCV_2017/papers/Shen_DSOD_Learning_Deeply_ICCV_2017_paper.pdf) |
+|[SSD]() |VGGNet| 300x300 | 46| 26.3 M  | 31.75B   | 77.2 | []() |
+|[YOLO-v2]() |Darknet-19| 416×416| 67 | 48.20M | 34.90B | 67.8| []() |
+|[YOLO]() |-| 448×448 | 45 | 188.25M  | 40.19B   | 63.4 | []() |
+|Faster-RCNN |  VGG  | 600x1000  | 7   | 134.7 M | 188.12B | 73.2  |           | 
+|[R-FCN]() |ResNet-50|600×1000| 11 | 31.90M | - | 77.4 | []() |
 
 
 #### Real Time Object Detection
