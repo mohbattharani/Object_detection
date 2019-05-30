@@ -21,3 +21,8 @@ Dataset: VOC 2007
 |[PELEE](https://arxiv.org/pdf/1804.06882.pdf) |  Dense Blocks | 300x300 | - | 5.98 M  | 1.21B   | 70.9  | [NeurIPS 2018]() |
 |[Tiny-YOLOv2](https://github.com/simo23/tinyYOLOv2) | - | 416x416 | 207 | 15.12 M  | 6.97B   | 57.1  | [CVPR 2016](https://pjreddie.com/darknet/yolo/)|
 
+
+
+#### References:
+1. https://github.com/ZHANGHeng19931123/awesome-video-object-detection
+2. https://github.com/amusi/awesome-object-detection
