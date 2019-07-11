@@ -1,5 +1,23 @@
 #### Object Detection
 
+Dataset: MS COCO
+
+|Method      | Backbone | Input size | FPS | AP(S) | AP(M)   | AP(L) |  MutliScale | Venue    |
+|:---        | :---   | :---       |:--- | :---    |:---     |:---   |  :---     | :---     |
+|[M2Det](https://github.com/qijiezhao/M2Det)|VGG16|800x800| - | 29.2 | 47.9 | 55.1 |True | AAAI 2019|
+|[M2Det](https://github.com/qijiezhao/M2Det)|VGG16|800x800| 11.8 | 22.1 | 46.5 | 50.2 | False | AAAI 2019|
+|[M2Det](https://github.com/qijiezhao/M2Det)|VGG16|512x512| - | 28.0 | 47.4 | 52.8 | True | AAAI 2019|
+|[M2Det](https://github.com/qijiezhao/M2Det)|VGG16|512x512| 18.0 | 18.4 | 43.4 | 51.2 | False | AAAI 2019|
+|[M2Det](https://github.com/qijiezhao/M2Det)|VGG16|320x320| - | 24.4 | 41.5 | 47.6 | True | AAAI 2019|
+|[M2Det](https://github.com/qijiezhao/M2Det)|VGG16|320x320| 33.4 | 14.4 | 37.6 | 47.6 | False | AAAI 2019|
+|[M2Det](https://github.com/qijiezhao/M2Det)|ResNet101|512x512| - | 29.6 | 49.6 | 54.3 | True | AAAI 2019|
+|[M2Det](https://github.com/qijiezhao/M2Det)|ResNet101|512x512| 15.8 | 20.5 | 43.9 | 53.4 | False | AAAI 2019|
+|[M2Det](https://github.com/qijiezhao/M2Det)|ResNet101|320x320| - | 25.3 | 42.5 | 48.3 | True | AAAI 2019|
+|[M2Det](https://github.com/qijiezhao/M2Det)|ResNet101|320x320| 21.7 | 14.8 | 38.8 | 47.9 | False | AAAI 2019|
+
+
+
+
 Dataset: VOC 2007
 
 |Method      | Backbone | Input size | FPS | #Params | FLOPs   | mAP(%)|  Venue    |
